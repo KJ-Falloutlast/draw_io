@@ -2642,6 +2642,12 @@
         <mxCell id="gF1Cx_rqpofX0PmY_Y05-232" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;VIO更新靠img来划分&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1064" y="4570" width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="gF1Cx_rqpofX0PmY_Y05-233" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1282" y="4610" width="60" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="gF1Cx_rqpofX0PmY_Y05-234" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1118" y="4610" width="60" height="350" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
