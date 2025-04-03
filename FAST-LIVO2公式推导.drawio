@@ -2129,9 +2129,6 @@
             <mxPoint x="840" y="4610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gF1Cx_rqpofX0PmY_Y05-54" value="&lt;div style=&quot;color: rgb(214, 214, 221); background-color: rgb(24, 24, 24); font-family: &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(214, 214, 221);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;max_offs_time_ms&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="4570" width="95" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="gF1Cx_rqpofX0PmY_Y05-58" value="将img_capture_time到last_lio_update_time之间的点云和imu&lt;div&gt;都加入meas.pcl_proc_cur和meas.imu&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="476.75" y="4661" width="340" height="40" as="geometry" />
         </mxCell>
@@ -2379,9 +2376,6 @@
             <mxPoint x="399.5" y="5101.5" as="sourcePoint" />
             <mxPoint x="840" y="5101.5" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="gF1Cx_rqpofX0PmY_Y05-143" value="&lt;div style=&quot;color: rgb(214, 214, 221); background-color: rgb(24, 24, 24); font-family: &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(214, 214, 221);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;max_offs_time_ms&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="5061.5" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gF1Cx_rqpofX0PmY_Y05-144" value="将所有小于img_capture_time中的imu数据加入到meas中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="470.4" y="5155.5" width="320" height="30" as="geometry" />
