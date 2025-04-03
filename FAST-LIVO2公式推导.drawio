@@ -2211,7 +2211,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gF1Cx_rqpofX0PmY_Y05-92" value="&lt;div style=&quot;color: #d6d6dd;background-color: #181818;font-family: &#39;JetBrains Mono&#39;, &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #d6d6dd;&quot;&gt;max_offs_time_ms&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="646" y="4560" width="170" height="40" as="geometry" />
+          <mxGeometry x="630.4" y="4560" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
