@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="26.2.5">
   <diagram name="第 1 页" id="kaKzK8tJJ9AbSJAv0scy">
-    <mxGraphModel dx="9929" dy="2265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10021" dy="2387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3097,9 +3097,6 @@
         <mxCell id="Tj_DmkFEP0jOonpGc7qw-116" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="584.8000000000002" y="6681" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Tj_DmkFEP0jOonpGc7qw-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tj_DmkFEP0jOonpGc7qw-97" target="Tj_DmkFEP0jOonpGc7qw-116">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Tj_DmkFEP0jOonpGc7qw-118" value="imu4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="569.8000000000002" y="6770" width="40" height="20" as="geometry" />
         </mxCell>
@@ -3124,7 +3121,7 @@
           <mxGeometry x="520" y="6890" width="261.9" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tj_DmkFEP0jOonpGc7qw-217" value="&lt;div style=&quot;color: #d6d6dd;background-color: #181818;font-family: &#39;JetBrains Mono&#39;, &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #d6d6dd;&quot;&gt;imu_end_time&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="6635" width="130" height="40" as="geometry" />
+          <mxGeometry x="537.3" y="6630" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tj_DmkFEP0jOonpGc7qw-218" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="431.8000000000002" y="6681" width="10" height="80" as="geometry" />
@@ -3741,7 +3738,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Tj_DmkFEP0jOonpGc7qw-491" value="`p_e, R_e, v_e, \tau`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="535" y="6798" width="130" height="30" as="geometry" />
+          <mxGeometry x="571.15" y="6659" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj_DmkFEP0jOonpGc7qw-498" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.023;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Tj_DmkFEP0jOonpGc7qw-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="441.8" y="6720.64" as="sourcePoint" />
+            <mxPoint x="580" y="6720" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
