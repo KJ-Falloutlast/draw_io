@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="26.2.8">
   <diagram name="第 1 页" id="kaKzK8tJJ9AbSJAv0scy">
-    <mxGraphModel dx="9793" dy="2090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="9590" dy="1822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3986,8 +3986,8 @@
             <mxPoint x="-783" y="4650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P5Eqwo3dM_mSpkj8BtFk-111" value="将点集`{p^G}`都加入到voxelmap中，`v{p^G}`是对应的体素" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-645" y="4850" width="340" height="30" as="geometry" />
+        <mxCell id="P5Eqwo3dM_mSpkj8BtFk-111" value="将点集`{p^G}`都加入到voxelmap中，`v{p^G}`是对应的体素&lt;span style=&quot;color: rgb(156, 220, 254); background-color: rgb(31, 31, 31); font-family: &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; white-space-collapse: preserve;&quot;&gt;loc_xyz&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="4850" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P5Eqwo3dM_mSpkj8BtFk-112" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fillColor=#fa6800;strokeColor=#C73500;exitX=0.299;exitY=0.116;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="P5Eqwo3dM_mSpkj8BtFk-101">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
