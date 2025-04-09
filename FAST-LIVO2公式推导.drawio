@@ -4004,8 +4004,8 @@
         <mxCell id="P5Eqwo3dM_mSpkj8BtFk-115" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;JetBrains Mono&#39;, &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;octo_tree&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-630" y="4778" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P5Eqwo3dM_mSpkj8BtFk-116" value="一个正方体代表一个octo_tree,所有正方体的集合为voxelmap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-750" y="4738" width="340" height="30" as="geometry" />
+        <mxCell id="P5Eqwo3dM_mSpkj8BtFk-116" value="一个正方体代表一个octo_tree,所有正方体的集合为voxelmap, 每个octo_tree中都有对应的点集" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-730" y="4718" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P5Eqwo3dM_mSpkj8BtFk-120" value="`p^G`包含位置和协方差" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-750" y="4890" width="150" height="30" as="geometry" />
