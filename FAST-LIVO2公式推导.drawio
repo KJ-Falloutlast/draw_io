@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="第 1 页" id="kaKzK8tJJ9AbSJAv0scy">
-    <mxGraphModel dx="9511" dy="1787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="9381" dy="1592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4527,7 +4527,7 @@
           <mxGeometry x="21.25" y="10.39999999999993" width="6.0931899641577045" height="6.0931899641577045" as="geometry" />
         </mxCell>
         <mxCell id="0CGlblYNHidhJdz3cAG5-215" value="得到`p^L, p^G, \text(cov)_(p_L), \text(cov)_(p_G)`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1280" y="5796.98" width="290" height="30" as="geometry" />
+          <mxGeometry x="-1170" y="5772.75" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
