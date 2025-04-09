@@ -4467,7 +4467,7 @@
           <mxGeometry x="-717.5" y="5765.35" width="21.83" height="163.26" as="geometry" />
         </mxCell>
         <mxCell id="0CGlblYNHidhJdz3cAG5-170" value="`\|p_(cen) + l_(quat)\|`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-773.75" y="5845" width="140" height="30" as="geometry" />
+          <mxGeometry x="-765" y="5850" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0CGlblYNHidhJdz3cAG5-180" value="&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;plpt0&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-781.96" y="5774.25" width="23.48" height="28.5" as="geometry" />
@@ -4525,6 +4525,9 @@
         </mxCell>
         <mxCell id="0CGlblYNHidhJdz3cAG5-214" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#b85450;" vertex="1" parent="0CGlblYNHidhJdz3cAG5-209">
           <mxGeometry x="21.25" y="10.39999999999993" width="6.0931899641577045" height="6.0931899641577045" as="geometry" />
+        </mxCell>
+        <mxCell id="0CGlblYNHidhJdz3cAG5-215" value="得到`p^L, p^G, \text(cov)_(p_L), \text(cov)_(p_G)`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="5796.98" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
