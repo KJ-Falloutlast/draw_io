@@ -5033,7 +5033,13 @@
           <mxGeometry x="-2130" y="5981" width="370" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-222" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;发布odom, RGBMAP,和PATH&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2030" y="6116" width="280" height="40" as="geometry" />
+          <mxGeometry x="-2064" y="6130" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-225" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;JetBrains Mono&#39;, &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pcl_w_wait_pub&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;laserCloudWorld&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1700" y="6260" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-226" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;生产pcl_w_wait_pub=`p^G`作为先验来完成VIO更新&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2190" y="6260" width="480" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
