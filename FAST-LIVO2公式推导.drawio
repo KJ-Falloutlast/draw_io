@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="第 1 页" id="kaKzK8tJJ9AbSJAv0scy">
-    <mxGraphModel dx="9979" dy="2309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="9916" dy="2228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5447,7 +5447,7 @@
           <mxGeometry y="77.5" width="80" height="76" as="geometry" />
         </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-586" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" vertex="1" parent="n6pnRlrQ9yFWU8sIF_Fr-583">
-          <mxGeometry x="80" y="77" width="80" height="76" as="geometry" />
+          <mxGeometry x="80" y="70" width="80" height="83.5" as="geometry" />
         </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-587" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" vertex="1" parent="n6pnRlrQ9yFWU8sIF_Fr-583">
           <mxGeometry x="40" y="97" width="80" height="76" as="geometry" />
@@ -5515,6 +5515,9 @@
             <mxPoint x="50" y="14.375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-608" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#b85450;" vertex="1" parent="n6pnRlrQ9yFWU8sIF_Fr-583">
+          <mxGeometry x="13" y="53" width="18" height="18" as="geometry" />
+        </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-626" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;`p^w = p^G`&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="n6pnRlrQ9yFWU8sIF_Fr-569">
           <mxGeometry x="-34" y="120.75" width="130" height="40" as="geometry" />
         </mxCell>
@@ -5524,11 +5527,8 @@
             <mxPoint x="30" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-608" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#b85450;" vertex="1" parent="n6pnRlrQ9yFWU8sIF_Fr-555">
-          <mxGeometry x="10" y="114.5" width="18" height="18" as="geometry" />
-        </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-610" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;即将要投影到patch上的map point&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1736.58" y="9710" width="300" height="40" as="geometry" />
+          <mxGeometry x="-1725.48" y="9710" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-612" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;`\text{pg}` = `\text{pv_list}`&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1907" y="9811.25" width="250" height="40" as="geometry" />
@@ -5630,10 +5630,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-647" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF0000;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1723.48" y="9686" width="18" height="18" as="geometry" />
+          <mxGeometry x="-1746.48" y="9721" width="18" height="18" as="geometry" />
         </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-648" value="`p_(cen) = \text(size)/2 +&amp;nbsp; p^G`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1771" y="9770" width="190" height="30" as="geometry" />
+          <mxGeometry x="-1760" y="9770" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-650" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;strokeColor=#33FF33;strokeWidth=3;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="n6pnRlrQ9yFWU8sIF_Fr-600" target="n6pnRlrQ9yFWU8sIF_Fr-627">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -5648,13 +5648,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-654" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;`\text{feat_map}` =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;`\text{voxel_map}`&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1902" y="9850" width="360" height="40" as="geometry" />
+          <mxGeometry x="-1905" y="9850" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-655" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;`\text{sub_feat_map}` = map&amp;lt;VOXEL_LOCATION, int&amp;gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1773" y="10080" width="510" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-656" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;`\text{sub_feat_map}`&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1841.74" y="9890" width="220" height="50" as="geometry" />
+          <mxGeometry x="-1841.74" y="9887" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-658" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;`\text{feat_map}` = map&amp;lt;VOXEL_LOCATION, VOXEL_POINTS*&amp;gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1778.37" y="10110" width="610" height="40" as="geometry" />
@@ -5672,7 +5672,37 @@
           <mxGeometry x="-2190" y="9460" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-668" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;`\text{new_frame}`&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2305" y="9440" width="190" height="40" as="geometry" />
+          <mxGeometry x="-2775" y="9765" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-672" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" vertex="1" parent="1">
+          <mxGeometry x="-1690.22" y="9533.25" width="80" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-674" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" vertex="1" parent="1">
+          <mxGeometry x="-1690.22" y="9534" width="80" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-677" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" vertex="1" parent="1">
+          <mxGeometry x="-1690.22" y="9534" width="80" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-681" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" vertex="1" parent="1">
+          <mxGeometry x="-1690.22" y="9533.75" width="80" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-685" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1690.22" y="9533.25" width="80" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-686" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1659.22" y="9547.75" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-688" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF0000;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1677.22" y="9573.75" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-689" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1650.22" y="9582.25" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-694" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1677.22" y="9547.75" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n6pnRlrQ9yFWU8sIF_Fr-697" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;对应一个视觉地图点集VOXEL_POINTS，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;其中voxel_points对应这个体素的4个视觉特征点&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1600" y="9552.75" width="400" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
