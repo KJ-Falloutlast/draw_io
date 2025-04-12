@@ -6562,7 +6562,7 @@
           <mxGeometry y="60" width="11" height="11" as="geometry" />
         </mxCell>
         <mxCell id="pU9CM6KV_ZdQeeiavBIj-137" value="new frame" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2290" y="12018.59" width="80" height="30" as="geometry" />
+          <mxGeometry x="-2433.36" y="11970.9" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pU9CM6KV_ZdQeeiavBIj-138" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;相机坐标系{f}&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-2777.1499999999996" y="11842.409999999998" width="140" height="40" as="geometry" />
