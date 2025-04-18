@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="kaKzK8tJJ9AbSJAv0scy">
-    <mxGraphModel dx="5571" dy="1944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="5702" dy="2110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-212" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1892" y="15449" width="152" height="111" as="geometry" />
+        </mxCell>
         <mxCell id="Wlw6nNYhWB2A0kkjp1f_-3" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=21.25;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-2291.343544463991" y="14503.19912828279" width="179.62755247070405" height="45.80209064381494" as="geometry" />
         </mxCell>
@@ -7768,7 +7771,7 @@
           <mxGeometry x="-2241.7200000000003" y="15868.240000000002" width="73.86" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Wlw6nNYhWB2A0kkjp1f_-143" value="&lt;font color=&quot;#0000ff&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;Visualpoint&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-2204.6500000000005" y="15498.08" width="73.86" height="30" as="geometry" />
+          <mxGeometry x="-2287.9800000000005" y="15441.789999999999" width="73.86" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Wlw6nNYhWB2A0kkjp1f_-144" value="reference frame" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-2397.02" y="15664.999999999998" width="160" height="40" as="geometry" />
@@ -7873,7 +7876,70 @@
           <mxGeometry x="-2299.5099999999998" y="15465" width="6.79" height="6.79" as="geometry" />
         </mxCell>
         <mxCell id="Wlw6nNYhWB2A0kkjp1f_-173" value="遍历每个pg，构建feature和`p_{vis}`，并将合适的pg加入到append_voxel_points" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-2540.21" y="15619.999999999998" width="730" height="40" as="geometry" />
+          <mxGeometry x="-2309" y="15609.999999999998" width="730" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-174" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2086" y="15463.85" width="121" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-176" value="&lt;font color=&quot;#0000ff&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;append_voxel_points&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-2128.2900000000004" y="15429.999999999998" width="73.86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-177" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#33001A;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-2072.252374743739" y="15507.48470320984" width="8.305743271690963" height="8.305743271690963" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-178" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00FF00;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-2030.578782570536" y="15500.614389613267" width="8.305743271690963" height="8.305743271690963" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-179" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-2002.4987825705362" y="15494.884389613268" width="8.305743271690963" height="8.305743271690963" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-180" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-2014.4787825705362" y="15515.794389613267" width="8.305743271690963" height="8.305743271690963" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-181" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1985.308782570536" y="15500.614389613267" width="8.305743271690963" height="8.305743271690963" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-182" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-2030.578782570536" y="15481.644389613268" width="8.305743271690963" height="8.305743271690963" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-183" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-2054.428782570536" y="15490.034389613267" width="8.305743271690963" height="8.305743271690963" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-184" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=25.714285714285715;endSize=9.057142857142857;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2208.87" y="15517.23" as="sourcePoint" />
+            <mxPoint x="-2108.87" y="15517.23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-185" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;VIOManager&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;plotTrackedPoints&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-2159.65" y="15360" width="368.07" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-203" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1875.98" y="15462.27" width="121" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-204" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#33001A;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1862.232374743739" y="15505.90470320984" width="8.305743271690963" height="8.305743271690963" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-205" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00FF00;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1820.558782570536" y="15499.034389613267" width="8.305743271690963" height="8.305743271690963" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-206" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1792.4787825705362" y="15493.304389613268" width="8.305743271690963" height="8.305743271690963" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-207" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1804.4587825705362" y="15514.214389613267" width="8.305743271690963" height="8.305743271690963" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-208" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1785.9" y="15488.42" width="10.61" height="10.61" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-209" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1820.558782570536" y="15480.064389613268" width="8.305743271690963" height="8.305743271690963" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-210" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1844.408782570536" y="15488.454389613267" width="8.305743271690963" height="8.305743271690963" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlw6nNYhWB2A0kkjp1f_-211" value="在图像中显示为" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1895.4800000000002" y="15419.999999999998" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
