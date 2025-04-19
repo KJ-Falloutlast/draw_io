@@ -8202,7 +8202,7 @@
           <mxGeometry x="-2330.73" y="16235" width="6.79" height="6.79" as="geometry" />
         </mxCell>
         <mxCell id="IFx8nUY6WB3mj3mlstWo-136" value="遍历每个pg，构建feature和`p_{vis}`，并将合适的pg加入到append_voxel_points" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-2340.2200000000003" y="16380" width="730" height="40" as="geometry" />
+          <mxGeometry x="-2346.4800000000005" y="16380" width="730" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IFx8nUY6WB3mj3mlstWo-137" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2117.2200000000003" y="16233.849999999999" width="121" height="85" as="geometry" />
