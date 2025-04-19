@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="kaKzK8tJJ9AbSJAv0scy">
-    <mxGraphModel dx="5813" dy="2183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="6191" dy="2633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8661,6 +8661,18 @@
             <mxPoint x="-2710" y="17380" as="sourcePoint" />
             <mxPoint x="-2131.688931674667" y="17223.757211982418" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IFx8nUY6WB3mj3mlstWo-350" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.426;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2362.5400000000004" y="17813.3" as="sourcePoint" />
+            <mxPoint x="-2364.2183400000004" y="17890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IFx8nUY6WB3mj3mlstWo-351" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-2790.96" y="17890" width="819.91" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IFx8nUY6WB3mj3mlstWo-353" value="&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 20px;&quot;&gt;1.如果p_{vis}收敛，则将p_{vis}非ref patch删除&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none;&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 20px;&quot;&gt;2.判断p_{vis}对应的ref patch和cur patch的距离，R,T，如果太大可以将p_{vis}对应的ftr加入到pt的obs中&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none;&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 20px;&quot;&gt;3.如果p_{vis}对应的last_ftr对应的pc和new_frame对应的pc距离太大，也可以作为p_{vis}对应的ftr加入到pt的obs中&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2644.34" y="17900" width="1025.34" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
