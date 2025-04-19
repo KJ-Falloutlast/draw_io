@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="kaKzK8tJJ9AbSJAv0scy">
-    <mxGraphModel dx="5752" dy="2110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="5515" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9160,6 +9160,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2583.96" y="18420.9" as="sourcePoint" />
             <mxPoint x="-2020.0187825703676" y="18253.977261249114" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IFx8nUY6WB3mj3mlstWo-601" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-2482.98" y="18850" width="260" height="100.56" as="geometry" />
+        </mxCell>
+        <mxCell id="IFx8nUY6WB3mj3mlstWo-602" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;利用pt所在的plane,来更新pt对应的normal&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="IFx8nUY6WB3mj3mlstWo-601">
+          <mxGeometry x="23.957142857142745" y="1.39" width="173.33333333333334" height="99.17159763313734" as="geometry" />
+        </mxCell>
+        <mxCell id="IFx8nUY6WB3mj3mlstWo-606" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-2482.98" y="19000" width="260" height="100.56" as="geometry" />
+        </mxCell>
+        <mxCell id="IFx8nUY6WB3mj3mlstWo-607" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;遍历pt所对应的所有obs, 不断，计算他们之间的NCC, 选择最大的NCC为reference patch&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="IFx8nUY6WB3mj3mlstWo-606">
+          <mxGeometry x="23.957142857142745" width="173.33333333333334" height="99.17159763313734" as="geometry" />
+        </mxCell>
+        <mxCell id="IFx8nUY6WB3mj3mlstWo-608" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IFx8nUY6WB3mj3mlstWo-602" target="IFx8nUY6WB3mj3mlstWo-607">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2380" y="18950" as="sourcePoint" />
+            <mxPoint x="-2330" y="18900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
