@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="kaKzK8tJJ9AbSJAv0scy">
-    <mxGraphModel dx="4798" dy="2043" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="5018" dy="2334" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8276,23 +8276,41 @@
         <mxCell id="rVunVrqn8YPstxw3r8N7-58" value="遍历所有的`p_L`，将`p_L`转换到G系下，然后构建`\text(cov)_(p_G)`" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="569.7099999999999" y="14520" width="317.87" height="91.83" as="geometry" />
         </mxCell>
-        <mxCell id="rVunVrqn8YPstxw3r8N7-59" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(197, 134, 192);&quot;&gt;for&lt;/span&gt; (&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;iterCount&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;0&lt;/span&gt;; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;iterCount&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;config_setting_&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;max_iterations_&lt;/span&gt;; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;iterCount&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;++&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="509.44999999999993" y="14446.18" width="560" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="rVunVrqn8YPstxw3r8N7-60" value="构建所有`p_G`的plpt_list： voxelmap中构建每个`p_G`的plpt，他们包括：dist, n, `p_L`, `p_G`, `\text{cov}_(平面)`, q" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="568.38" y="14621.87" width="317.87" height="79.44" as="geometry" />
         </mxCell>
         <mxCell id="rVunVrqn8YPstxw3r8N7-61" value="遍历plpt_list中的每个plpt，构建观测方程，雅可比，观测矩阵" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="568.38" y="14719.44" width="317.87" height="70.4" as="geometry" />
         </mxCell>
-        <mxCell id="rVunVrqn8YPstxw3r8N7-62" value="进行IESKF迭代更新求解得到最优状态量`x_k^.`" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="rVunVrqn8YPstxw3r8N7-62" value="进行IESKF迭代更新求解得到最优迭代误差状态量`\Delta x_k^.`" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="567.75" y="14810" width="317.87" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rVunVrqn8YPstxw3r8N7-63" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="rVunVrqn8YPstxw3r8N7-63" value="更新状态量，得到最优状态量`x_k`" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="569.78" y="14891.83" width="317.87" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rVunVrqn8YPstxw3r8N7-64" value="四" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="552.93" y="14222.96" width="317.07" height="116.48" as="geometry" />
+        <mxCell id="rVunVrqn8YPstxw3r8N7-64" value="遍历每个octo_tree, 并初始化octo_tree" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="555.16" y="14222.96" width="317.07" height="116.48" as="geometry" />
+        </mxCell>
+        <mxCell id="rVunVrqn8YPstxw3r8N7-67" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="502.35" y="14446.18" width="567.0999999999998" height="73.81999999999971" as="geometry" />
+        </mxCell>
+        <mxCell id="rVunVrqn8YPstxw3r8N7-59" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(197, 134, 192);&quot;&gt;for&lt;/span&gt; (&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;iterCount&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;0&lt;/span&gt;; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;iterCount&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;config_setting_&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;max_iterations_&lt;/span&gt;; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;iterCount&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;++&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="rVunVrqn8YPstxw3r8N7-67">
+          <mxGeometry x="7.099999999999909" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rVunVrqn8YPstxw3r8N7-65" value="{" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="rVunVrqn8YPstxw3r8N7-67">
+          <mxGeometry y="43.81999999999971" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rVunVrqn8YPstxw3r8N7-68" value="&lt;span&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;}&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="14953.86" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rVunVrqn8YPstxw3r8N7-69" value="利用更新后的状态量`x_k`将`p_L`注册到G系下得到`p_G`" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="566.62" y="15009.44" width="317.87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rVunVrqn8YPstxw3r8N7-70" value="利用更新的`p_G`更新VoxelMap：如果能够找到`p_G`对应的octoTree, 则继续遍历，如果找不到，则以`p_G`为中心建立一个octoTree，直到所有`p_G`都有octoTree为止" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="566.62" y="15140" width="323.38" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rVunVrqn8YPstxw3r8N7-71" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;JetBrains Mono&#39;, &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;UpdateVoxelMap&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="564.55" y="15094.44" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
