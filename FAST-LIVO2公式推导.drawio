@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="kaKzK8tJJ9AbSJAv0scy">
-    <mxGraphModel dx="5644" dy="3166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="4889" dy="2168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8239,6 +8239,12 @@
         </mxCell>
         <mxCell id="rVunVrqn8YPstxw3r8N7-44" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;VIO线程&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-248.95999999999995" y="13244.510000000002" width="320" height="145.61" as="geometry" />
+        </mxCell>
+        <mxCell id="rVunVrqn8YPstxw3r8N7-45" value="&lt;span style=&quot;font-size: 50px;&quot;&gt;LIO线程&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="526.8000000000001" y="13239.330000000002" width="320" height="145.61" as="geometry" />
+        </mxCell>
+        <mxCell id="rVunVrqn8YPstxw3r8N7-47" value="输入去畸变以及重力对齐的点`p_G`" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="521.8000000000001" y="13504.159999999998" width="317.87" height="210.56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
