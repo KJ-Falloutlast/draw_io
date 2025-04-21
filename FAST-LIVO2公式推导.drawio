@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="kaKzK8tJJ9AbSJAv0scy">
-    <mxGraphModel dx="4693" dy="1905" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="4798" dy="2043" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8267,29 +8267,32 @@
         <mxCell id="rVunVrqn8YPstxw3r8N7-55" value="将`p_G`送入voxelmap_manager-&amp;gt;feats_down_world" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="552.93" y="13908.880000000001" width="317.87" height="96.4" as="geometry" />
         </mxCell>
-        <mxCell id="rVunVrqn8YPstxw3r8N7-56" value="利用`p_G`构造voxelMap: 遍历每个`p_G`，找到他们的索引`loc(p_G)`,并判断索引对应的位置是否为空，如果为空，就建立一个voxel, 并加入`p_G`，如果不为空，则直接将`p_G`加入voxel,直到整个`p_G`遍历完成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="550.8" y="14013.52" width="317.87" height="154.67" as="geometry" />
+        <mxCell id="rVunVrqn8YPstxw3r8N7-56" value="利用`p_G`构造voxelMap: 遍历每个`p_G`，找到他们的索引`loc(p_G)`,并判断索引对应的位置是否为空，如果为空，就在loc(p_G)位置建立一个voxel, 并加入`p_G`，如果不为空，则直接将`p_G`加入voxel对应的octo_tree,直到整个`p_G`遍历完成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="550.8" y="14013.52" width="317.87" height="196.48" as="geometry" />
         </mxCell>
-        <mxCell id="rVunVrqn8YPstxw3r8N7-57" value="遍历所有的`p_L`，构建`\text(cov)_(p_L)`" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="552.93" y="14184.29" width="317.87" height="96.4" as="geometry" />
+        <mxCell id="rVunVrqn8YPstxw3r8N7-57" value="遍历所有的`p_L`，构建`\text(cov)_(p_L)`，" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="556.1" y="14369.44" width="317.87" height="55.84" as="geometry" />
         </mxCell>
         <mxCell id="rVunVrqn8YPstxw3r8N7-58" value="遍历所有的`p_L`，将`p_L`转换到G系下，然后构建`\text(cov)_(p_G)`" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="561.06" y="14370" width="317.87" height="91.83" as="geometry" />
+          <mxGeometry x="569.7099999999999" y="14520" width="317.87" height="91.83" as="geometry" />
         </mxCell>
         <mxCell id="rVunVrqn8YPstxw3r8N7-59" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(197, 134, 192);&quot;&gt;for&lt;/span&gt; (&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;iterCount&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;0&lt;/span&gt;; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;iterCount&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;config_setting_&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;max_iterations_&lt;/span&gt;; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;iterCount&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;++&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500.79999999999995" y="14296.18" width="560" height="40" as="geometry" />
+          <mxGeometry x="509.44999999999993" y="14446.18" width="560" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rVunVrqn8YPstxw3r8N7-60" value="构建所有`p_G`的plpt_list： voxelmap中构建每个`p_G`的plpt，他们包括：dist, n, `p_L`, `p_G`, `\text{cov}_(平面)`, q" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="559.73" y="14471.87" width="317.87" height="79.44" as="geometry" />
+          <mxGeometry x="568.38" y="14621.87" width="317.87" height="79.44" as="geometry" />
         </mxCell>
         <mxCell id="rVunVrqn8YPstxw3r8N7-61" value="遍历plpt_list中的每个plpt，构建观测方程，雅可比，观测矩阵" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="559.73" y="14569.44" width="317.87" height="70.4" as="geometry" />
+          <mxGeometry x="568.38" y="14719.44" width="317.87" height="70.4" as="geometry" />
         </mxCell>
         <mxCell id="rVunVrqn8YPstxw3r8N7-62" value="进行IESKF迭代更新求解得到最优状态量`x_k^.`" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="559.1" y="14660" width="317.87" height="60" as="geometry" />
+          <mxGeometry x="567.75" y="14810" width="317.87" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rVunVrqn8YPstxw3r8N7-63" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="561.13" y="14741.83" width="317.87" height="60" as="geometry" />
+          <mxGeometry x="569.78" y="14891.83" width="317.87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rVunVrqn8YPstxw3r8N7-64" value="四" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="552.93" y="14222.96" width="317.07" height="116.48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
